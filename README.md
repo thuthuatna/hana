@@ -3,11 +3,18 @@
 https://blog.logrocket.com/microservices-nestjs-kafka-typescript/
 
 build comman:
+
+```
 nx run-many -t build
+```
+
 run per service:
+
+```
 nx serve api-gateway
 nx serve auth-microservice
 nx serve payments-microservice
+```
 
 <a alt="Nx logo" href="https://nx.dev" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/nrwl/nx/master/images/nx-logo.png" width="45"></a>
 
